@@ -1,10 +1,12 @@
+function getUserName() {
 
-// Get user name
-let userName = prompt('Please type your name: ');
-while (userName === '') {
-  userName = prompt('That is not correct. Please enter your name: ');
+  let userName = prompt('Please type your name: ');
+  while (userName === '') {
+    userName = prompt('That is not correct. Please enter your name: ');
+  }
+  alert('Hello, ' + userName + ' and welcome to my portfolio!');
 }
-alert('Hello, ' + userName + ' and welcome to my portfolio!');
+// Get user name
 
 // Question 1:
 let userResponse1 = prompt('Have I ever lived in another Country?');

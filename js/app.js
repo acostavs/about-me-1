@@ -1,3 +1,11 @@
+'use strict'
+
+qOne();
+qTwp();
+qThree();
+qFour();
+qFive();
+
 function getUserName() {
 
   let userName = prompt('Please type your name: ');
@@ -54,7 +62,6 @@ function qFour() {
 }
 // Question 5:
 function qFive() {
-
   let userResponse5 = prompt('Do I like programming?');
   if (userResponse5 === 'yes' || userResponse5 === 'y') {
     alert('Good job, ' + userName + ' That is correct!');
